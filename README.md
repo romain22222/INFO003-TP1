@@ -1,5 +1,9 @@
 # TP1 INFO003
 
+## Lancement
+
+`python graphChronoGenerator.py Probleme<NumeroDuProbleme>/testDataP<NumeroDuProbleme>q<NumeroDeLaQuestion>.json`
+
 ## Problème 1
 
 ### a) Voir le fichier `Probleme1/probleme1On.py` -> `def progOn()`
