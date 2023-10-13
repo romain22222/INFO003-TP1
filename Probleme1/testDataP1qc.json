@@ -4,7 +4,7 @@
 	"temp_file"             : "./Probleme1/testDataP1qc.tmp",
 	"valeurInitiale"        : 10,
 	"borneSup"              : 1000,
-	"increment"             : "floor(3*x/2)+1",
+	"increment"             : "floor(6*x/5)+1",
 	"attenteMax"            : 5,
 	"logScale"              : false,
 	"courbesSup"            : [ "log(x)", "x", "x*log(x)", "x**2", "x**3", "x**4", "2**x" ],

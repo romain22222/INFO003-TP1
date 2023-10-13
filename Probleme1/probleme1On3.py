@@ -9,12 +9,14 @@ from math import sqrt
 #  L'argument l contient une liste d'entiers de taille n
 
 def progOn3(l):
-	s = 0
+	goodVals = []
+	target = 3*len(l)
 	for v in l:
 		for w in l:
 			for x in l:
-				s += v[0] * w[0] * x[0]
-	return s
+				if v + w + x < target:
+					goodVals.append([v, w, x])
+	return goodVals
 
 
 # -----  Fonction mère (normalement il n'y a pas à modifier la suite)  ------
@@ -44,7 +46,7 @@ if __name__ == '__main__':
 	try:
 		next(file)
 		for line in file:
-			tab.append([int(x) for x in line.split(" ")])
+			tab.append(int(line))
 	finally:
 		file.close()
 	if verbose:
