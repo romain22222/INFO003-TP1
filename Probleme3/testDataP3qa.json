@@ -1,0 +1,14 @@
+{
+	"executable"            : "python ./Probleme3/probleme3qa.py",
+	"generator"             : "python genererPartie.py",
+	"temp_file"             : "./Probleme3/testDataP3qa.tmp",
+	"valeurInitiale"        : 1,
+	"borneSup"              : 100,
+	"increment"             : "x+1",
+	"attenteMax"            : 5,
+	"logScale"              : false,
+	"courbesSup"            : [ "log(x)", "x", "x*log(x)", "x**2", "2**x" ],
+	"outputImageNamePrefix" : "graphP3qc",
+	"outputImageSize"       : "1000,700",
+    "numberByLine"     : 1
+}

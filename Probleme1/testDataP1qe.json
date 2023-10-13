@@ -1,0 +1,14 @@
+{
+	"executable"            : "python ./Probleme1/probleme1Oexp.py",
+	"generator"             : "python genererNombres.py",
+	"temp_file"             : "./Probleme1/testDataP1qe.tmp",
+	"valeurInitiale"        : 1,
+	"borneSup"              : 10,
+	"increment"             : "x+1",
+	"attenteMax"            : 20,
+	"logScale"              : false,
+	"courbesSup"            : [ "log(x)", "x", "x*log(x)", "x**2", "x**3", "x**4", "2**x", "x**x"],
+	"outputImageNamePrefix" : "graphP1qe",
+	"outputImageSize"       : "1000,700",
+    "numberByLine"     : 1
+}
